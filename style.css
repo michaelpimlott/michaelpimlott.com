@@ -22,6 +22,9 @@ h2 {
   line-height: 33px;
   margin-bottom: -20px;
 }
+h3{
+  color:#95CAE8;
+}
 p {
   margin: 20px 0;
 }
@@ -29,7 +32,6 @@ a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
 
-/* LAYOUT */
 .fixed-nav-bar {
   box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.6);
 }
@@ -87,7 +89,6 @@ a:link, a:visited, a:hover, a:active {
   color: #000000;
   transition: color 0.3s ease;
 }
-/* SPECIAL */
 .summary {
   color: #black;
   margin-top: 40px;
@@ -125,6 +126,24 @@ a:link, a:visited, a:hover, a:active {
 .button-dark:hover {
   color: #ffffff;
   background-color: rgba(70, 70, 70, 0.9);
+}
+
+#about{
+  color: white;
+  margin: 60px;
+  text-align: center;
+  border: 2px solid white;
+  padding:40px 20px 40px 20px;
+}
+
+#info{
+  color: white;
+  margin: 60px;
+  text-align: center;
+  border: 2px solid white;
+  padding:40px 20px 40px 20px;
+  font-size: 30px;
+
 }
 
 
