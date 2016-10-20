@@ -4,8 +4,8 @@
     border: 0;
 }
 
-a{
-  color: white;
+a {
+    color: white;
 }
 
 body {
@@ -302,6 +302,5 @@ a.sitename, a:visited.sitename {
     }
     .verticalpiece {
         padding-left: 20px;
-
     }
 }
