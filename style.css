@@ -4,6 +4,10 @@
     border: 0;
 }
 
+a{
+  color: white;
+}
+
 body {
     font: normal 18px/22px 'Oswald', sans-serif;
     background-color: #1C1F20;
@@ -249,14 +253,6 @@ a.sitename, a:visited.sitename {
     color: #dde1e2;
 }
 
-
-/*.show {
-  background-image: url(assets/down-arrow-icon.png);
-}
-.hide {
-  background-image: url(assets/up-arrow-icon.png);
-}*/
-
 @media only screen and (max-width: 800px) {
     .menu {
         position: relative;
@@ -302,10 +298,10 @@ a.sitename, a:visited.sitename {
         font-size: 14px;
     }
     #info {
-        font-size: 10px;
+        font-size: 8px;
     }
     .verticalpiece {
-        width: 100%;
-        height: auto;
+        padding-left: 20px;
+
     }
 }
