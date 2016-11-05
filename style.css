@@ -39,6 +39,14 @@ p {
     margin: 20px 0;
 }
 
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
@@ -48,22 +56,9 @@ a:link, a:visited, a:hover, a:active {
 }
 
 img {
-  max-width: 100%
-}
-
-.piece {
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    padding-top: 40px;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-}
-
-.verticalpiece {
-    width: 280px;
-    height: auto;
-    float: left;
-    margin: 0px 10px 0px 0px;
+    width: auto\9;
 }
 
 .content {
@@ -82,7 +77,7 @@ img {
     padding-top: 100px;
     min-height: 300px;
     text-align: left;
-    /*margin-bottom: 180px;*/
+
 }
 
 #name {
@@ -91,26 +86,6 @@ img {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     background-color: white;
-}
-
-.some-related-articles {
-    color: #747474;
-}
-
-.some-related-articles h1 {
-    color: #384e56;
-    margin-top: 60px;
-    text-transform: uppercase;
-}
-
-.some-related-articles h2 a:link, .some-related-articles h2 a:visited {
-    color: #464646;
-    transition: color 0.1s ease;
-}
-
-.some-related-articles h2 a:hover {
-    color: #000000;
-    transition: color 0.3s ease;
 }
 
 .summary {
@@ -169,11 +144,11 @@ img {
     margin: 60px;
     text-align: center;
     border: 2px solid white;
-    padding: 80px 20px 80px 20px;
+    padding: 50px 20px 80px 20px;
 }
 
-#label{
-  text-align: center;
+#label {
+    text-align: center;
 }
 
 #info {
@@ -185,8 +160,8 @@ img {
     font-size: 16px;
 }
 
-#top{
-  padding-top: 0px;
+#top {
+    padding-top: 0px;
 }
 
 .fixed-nav-bar {
@@ -241,31 +216,24 @@ img {
     color: #1C1F20;
 }
 
-#portfolio{
-  margin-left: 2.2em;
+#portfolio {
+  padding-left: 4.7%;
 }
 
-
-
-.wrapper {
-  margin: 0 auto;
-  width: 90%;
-
-  overflow: hidden;
+.chocolat-image :hover {
+    opacity: .8;
 }
 
-.gridf,
-.grid,
-.gridl {
-  width: 24%;
-  min-height: 100px;
-  float: left;
-  margin: 2px 0;
-}
-.gridf {} .grid {
-  margin: 2px 1%;
+.gridf, .grid, .gridl {
+    width: 24%;
+    min-height: 100px;
+    float: left;
+    margin: 2px 0;
 }
 
+.grid {
+    margin: 2px 1%;
+}
 
 a.sitename, a:visited.sitename {
     color: #e0e0e0;
@@ -337,8 +305,18 @@ a.sitename, a:visited.sitename {
     #info {
         font-size: 8px;
     }
-    .verticalpiece {
+
+    #portfolio {
+      padding-left: 0%;
+      padding-right: 4.7%;
       width:100%;
-      height: auto;
     }
+
+    #portfolio img {
+      width:100%;
+      padding-right: 4.7%;
+    }
+
+
+
 }
