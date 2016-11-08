@@ -1,5 +1,3 @@
-
-
-$(document).ready(function(){
-    $('.chocolat-parent').Chocolat();
+$(document).ready(function() {
+  $('.chocolat-parent').Chocolat();
 });

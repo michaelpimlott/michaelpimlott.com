@@ -77,7 +77,6 @@ img {
     padding-top: 100px;
     min-height: 300px;
     text-align: left;
-
 }
 
 #name {
@@ -217,7 +216,7 @@ img {
 }
 
 #portfolio {
-  padding-left: 4.7%;
+    padding-left: 4.7%;
 }
 
 .chocolat-image :hover {
@@ -305,18 +304,13 @@ a.sitename, a:visited.sitename {
     #info {
         font-size: 8px;
     }
-
     #portfolio {
-      padding-left: 0%;
-      padding-right: 4.7%;
-      width:100%;
+        padding-left: 0%;
+        padding-right: 4.7%;
+        width: 100%;
     }
-
     #portfolio img {
-      width:100%;
-      padding-right: 4.7%;
+        width: 100%;
+        padding-right: 4.7%;
     }
-
-
-
 }
