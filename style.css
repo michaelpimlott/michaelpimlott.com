@@ -63,7 +63,7 @@ img {
 
 .content {
     position: relative;
-    background: #464646 url(http://i.imgur.com/1l7uaQj.jpg) no-repeat center center fixed;
+    background: #464646 url("http://i.imgur.com/v5A67m1.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -217,6 +217,8 @@ img {
 
 #portfolio {
     padding-left: 4.7%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .chocolat-image :hover {
@@ -313,4 +315,11 @@ a.sitename, a:visited.sitename {
         width: 100%;
         padding-right: 4.7%;
     }
+
+    .content {
+      background: #464646 url("http://i.imgur.com/3mLSy4z.jpg");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+
 }
