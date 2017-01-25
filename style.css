@@ -5,7 +5,7 @@
 }
 
 a {
-    color: white;
+    color:white;
 }
 
 body {
@@ -295,12 +295,18 @@ a.sitename, a:visited.sitename {
     }
     #info {
         font-size: 14px;
+        margin: 4%;
     }
     #portfolio {
         padding-left: 0;
         padding-right: 4.7%;
         width: 100%;
 
+    }
+
+    #about {
+        padding: 40px 20px 40px 20px;
+        margin: 4%;
     }
 
     #about p {
