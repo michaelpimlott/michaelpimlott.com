@@ -33,6 +33,7 @@ h2 {
 
 h3 {
     color: #95CAE8;
+    font-size: 26px;
 }
 
 p {
@@ -65,6 +66,8 @@ img {
     position: relative;
     background: #464646 url("http://i.imgur.com/v5A67m1.jpg") no-repeat center center fixed;
     background-size: cover;
+    margin-top: 40px;
+    padding-bottom: 7%;
 }
 
 .description, .some-related-articles {
@@ -80,54 +83,36 @@ img {
 }
 
 #name {
-    color: white;
-    font-size: 44px;
+    color:black;
+    font-size: 52px;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    background-color: white;
+    background-color:RGBA(255, 255, 255, .80);
+    line-height: 1.2;
+    padding-left: 1%;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+#about p {
+  line-height: 1.7;
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
+
 }
 
 .summary {
-    color: #black;
+    color:black;
     margin-top: 40px;
     margin-bottom: 60px;
-    background-color: white;
-    font-size: 30px;
-    line-height: 30px;
-}
+    background-color:RGBA(255, 255, 255, .80);
+    font-size: 34px;
+    line-height: 1.2;
+    padding-left: 1%;
 
-.button, .button:visited, .button-dark {
-    display: inline-block;
-    max-width: 200px;
-    margin: 50px 10px 30px 10px;
-    padding: 10px;
-    font-family: "Signika", sans-serif;
-    color: white;
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 3px;
-    text-transform: capitalize;
-    text-align: center;
-    transition: all 0.1s ease;
-}
-
-.button-dark, .button-dark:visited {
-    margin: 20px 10px 30px 0;
-    color: #464646;
-    border-color: #464646;
-}
-
-.button:hover, .button-dark:hover {
-    transition: all 0.3s ease;
-}
-
-.button:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
-.button-dark:hover {
-    color: #ffffff;
-    background-color: rgba(70, 70, 70, 0.9);
 }
 
 .full {
@@ -146,6 +131,10 @@ img {
     padding: 50px 20px 80px 20px;
 }
 
+#about h3{
+  padding:2%;
+}
+
 #label {
     text-align: center;
 }
@@ -157,6 +146,11 @@ img {
     border: 2px solid white;
     padding: 80px 20px 80px 20px;
     font-size: 16px;
+}
+
+#info h4:hover,
+#info a:hover  {
+  color:#1D9D74;
 }
 
 #top {
@@ -172,10 +166,6 @@ img {
     width: 100%;
     height: 50px;
     background-color: black;
-}
-
-.content {
-    margin-top: 20px;
 }
 
 .fixed-nav-bar li, .fixed-nav-bar a {
@@ -195,7 +185,7 @@ img {
 }
 
 .menu a:hover, .menu a:target {
-    color: #ebebeb;
+    color:#1D9D74;;
 }
 
 .menu-items {
@@ -299,21 +289,32 @@ a.sitename, a:visited.sitename {
     }
 }
 
-@media only screen and (max-width: 220px) {
+@media only screen and (max-width: 428px) {
     .sitename, .show, .hide {
         font-size: 14px;
     }
     #info {
-        font-size: 8px;
+        font-size: 14px;
     }
     #portfolio {
-        padding-left: 0%;
+        padding-left: 0;
         padding-right: 4.7%;
         width: 100%;
+
+    }
+
+    #about p {
+      max-width: 100%;
+      padding-top: 6%;
+      padding-bottom:6%;
+    }
+
+    img{
+      width: 100%;
+
     }
     #portfolio img {
-        width: 100%;
-        padding-right: 4.7%;
+      padding-right: 4.7%;
     }
 
     .content {
