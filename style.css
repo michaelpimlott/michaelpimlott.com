@@ -1,11 +1,11 @@
-* {
+    * {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
 a {
-    color:white;
+    color: white;
 }
 
 body {
@@ -83,36 +83,46 @@ img {
 }
 
 #name {
-    color:black;
+    color: black;
     font-size: 52px;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    background-color:RGBA(255, 255, 255, .80);
+    background-color: RGBA(255, 255, 255, .80);
     line-height: 1.2;
     padding-left: 1%;
 }
 
+#colphon {
+  background-color: #000000;
+  color: white;
+  height: 80px;
+  width:100%;
+  text-align: center;
+  padding-top: 2%;
+  font-family: 'Oswald', sans-serif;
+  color: #E0E0E0;
+  font-size: 12px;
+
+}
 .icon {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 #about p {
-  line-height: 1.7;
-  max-width: 70%;
-  display: block;
-  margin: 0 auto;
-
+    line-height: 1.7;
+    max-width: 70%;
+    display: block;
+    margin: 0 auto;
 }
 
 .summary {
-    color:black;
+    color: black;
     margin-top: 40px;
-    margin-bottom: 60px;
-    background-color:RGBA(255, 255, 255, .80);
+    margin-bottom: 4px;
+    background-color: RGBA(255, 255, 255, .80);
     font-size: 34px;
     line-height: 1.2;
     padding-left: 1%;
-
 }
 
 .full {
@@ -131,8 +141,8 @@ img {
     padding: 50px 20px 80px 20px;
 }
 
-#about h3{
-  padding:2%;
+#about h3 {
+    padding: 2%;
 }
 
 #label {
@@ -148,9 +158,8 @@ img {
     font-size: 16px;
 }
 
-#info h4:hover,
-#info a:hover  {
-  color:#1D9D74;
+#info h4:hover, #info a:hover {
+    color: #1D9D74;
 }
 
 #top {
@@ -185,7 +194,7 @@ img {
 }
 
 .menu a:hover, .menu a:target {
-    color:#1D9D74;;
+    color: #1D9D74;
 }
 
 .menu-items {
@@ -301,32 +310,25 @@ a.sitename, a:visited.sitename {
         padding-left: 0;
         padding-right: 4.7%;
         width: 100%;
-
     }
-
     #about {
         padding: 40px 20px 40px 20px;
         margin: 4%;
     }
-
     #about p {
-      max-width: 100%;
-      padding-top: 6%;
-      padding-bottom:6%;
+        max-width: 100%;
+        padding-top: 6%;
+        padding-bottom: 6%;
     }
-
-    img{
-      width: 100%;
-
+    img {
+        width: 100%;
     }
     #portfolio img {
-      padding-right: 4.7%;
+        padding-right: 4.7%;
     }
-
     .content {
-      background: #464646 url("http://i.imgur.com/3mLSy4z.jpg");
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      background-size: cover;
-
-}
+        background: #464646 url("http://i.imgur.com/vAPmLAD.jpg") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
