@@ -90,6 +90,8 @@ img {
     background-color: RGBA(255, 255, 255, .80);
     line-height: 1.2;
     padding-left: 1%;
+    border-left: 6px solid white;
+    border-right: 6px solid white;
 }
 
 #colphon {
@@ -123,6 +125,8 @@ img {
     font-size: 34px;
     line-height: 1.2;
     padding-left: 1%;
+    border-left: 6px solid white;
+    border-right: 6px solid white;
 }
 
 .full {
